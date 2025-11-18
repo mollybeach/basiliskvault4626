@@ -1,0 +1,32 @@
+{
+    "name": "basilisk-vault-4626",
+    "version": "0.1.0",
+    "description": "A Privacy-Preserving, Policy-Enforced ERC-4626 Yield Vault for Institutional DeFi on Rayls",
+    "main": "index.js",
+    "scripts": {
+        "compile": "hardhat compile",
+        "test": "hardhat test",
+        "deploy:rayls": "hardhat run scripts/deploy.js --network rayls",
+        "node": "hardhat node",
+        "clean": "hardhat clean"
+    },
+    "keywords": [
+        "defi",
+        "erc4626",
+        "vault",
+        "rayls",
+        "privacy",
+        "institutional"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+        "@nomicfoundation/hardhat-verify": "^2.0.0",
+        "hardhat": "^2.19.0",
+        "dotenv": "^16.3.1"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^5.0.0"
+    }
+}
